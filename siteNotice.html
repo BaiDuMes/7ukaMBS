@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>站内公告</title>
+    <link rel="stylesheet" href="css/css.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slider.css"/>
+    <script src="js/zepto.js" language="javascript" type="text/javascript" ></script>
+    <!--触摸屏效果滑动组件-->
+    <script type="text/javascript" src="js/touch.js"></script>
+    <script type="text/javascript" src="js/zepto.extend.js"></script>
+    <script type="text/javascript" src="js/zepto.ui.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <!--触摸屏效果滑动组件end-->
+
+</head>
+<body>
+
+<header>
+    <div class="acc-infro fl">
+        <img src="images/back_icon.png" onclick="history.go(-1)" width="8px" height="16px" alt=""/>
+        <span style="padding-left: 10px;border-left:solid 1px #ffffff;">站内公告</span>
+    </div>
+    <div class="tool_btn fr">
+        <a href="siteNews.html"><span><img src="images/site_news_icon.png" width="20px" height="20px"></span></a>
+        <a href="allSearch.html"><span><img src="images/search_icon.png" width="22px" height="22px"/></span></a>
+        <a href="javascript:;" class="add" id="addButton"><span><img src="images/add_icon.png" width="20px" height="20px"/></span></a>
+    </div>
+</header>
+
+<div class="add-box fr" style="display: none;z-index: 10;">
+    <ul>
+        <a href="myAccount.html"><li><span class="add-hide-icon1">我的账户</span></li></a>
+        <a href="orderManagement.html"><li><span class="add-hide-icon2">订单管理</span></li></a>
+        <a href="goodsManagement.html"><li><span class="add-hide-icon3">商品管理</span></li></a>
+        <a href="payCash.html"><li><span class="add-hide-icon4">结算提现</span></li></a>
+    </ul>
+</div>
+<script>
+    $("#addButton").click(function () {
+        $(".add-box").toggle();
+    })
+</script>
+
+
+<div class="sitenotice-txt">平台佣金结算模式说明<br>
+    <input type="text" value="2016-06-20 10:10:10"/>
+</div>
+
+<div class="sitenotice-con">
+    <span>平台商户可用金额需满100元方可申请提。<br>
+
+提现模式为手动申请，可用金额足够时，客户即可发起提现申请。<br>
+
+申请后，平台将根据提现时间进行结算，具体出款时间<br>
+为：每天上午 11点 下午 17点<br>
+
+每日结算2次，全年无休，节假日正常结算，如遇银行系统问题出现结算延迟，具体结算时间以站内公告为准。</span>
+</div>
+<div class="financel-btn"><input type="button" disabled value="郑重声明"/></div>
+
+<div class="sitenotice-con">
+    <span>本平台杜绝一切钓鱼诈骗类网站及团伙接入，如发现存在此类行为，即刻
+
+冻结账户，请各位商户做好安全防范及商户自检工作</span>
+</div>
+
+<div class="h90"></div>
+<footer>
+    <ul>
+        <li><a href="index.html"><span class="footer-icon1">首页</span></a></li>
+        <li><a href="game.html"><span class="footer-icon2">游戏</span></a></li>
+        <li><a href="giftbag.html"><span class="footer-icon3">礼包</span></a></li>
+        <li><a href="management"><span class="footer-icon4">管理</span></a></li>
+    </ul>
+</footer>
+
+
+
+</body>
+</html>

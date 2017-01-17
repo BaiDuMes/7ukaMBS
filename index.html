@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="css/css.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slider.css"/>
+    <script src="js/zepto.js" language="javascript" type="text/javascript" ></script>
+    <!--触摸屏效果滑动组件-->
+    <script type="text/javascript" src="js/touch.js"></script>
+    <script type="text/javascript" src="js/zepto.extend.js"></script>
+    <script type="text/javascript" src="js/zepto.ui.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <!--触摸屏效果滑动组件end-->
+</head>
+<body>
+<div>
+<header>
+    <div class="acc-infro fl">
+        <img src="images/admin_icon.png" width="20px" height="20px" alt=""/>
+        <span><a href="adminNews.html">账户信息</a></span>
+    </div>
+    <div class="tool_btn fr">
+        <a href="siteNews.html"><span><img src="images/site_news_icon.png" width="20px" height="20px"></span></a>
+        <a href="allSearch.html"><span><img src="images/search_icon.png" width="22px" height="22px"/></span></a>
+        <a href="javascript:;" class="add" id="addButton"><span><img src="images/add_icon.png" width="20px" height="20px"/></span></a>
+    </div>
+</header>
+
+<div class="add-box fr" style="display: none;z-index: 10;">
+    <ul>
+        <a href="myAccount.html"><li><span class="add-hide-icon1">我的账户</span></li></a>
+        <a href="orderManagement.html"><li><span class="add-hide-icon2">订单管理</span></li></a>
+        <a href="goodsManagement.html"><li><span class="add-hide-icon3">商品管理</span></li></a>
+        <a href="payCash.html"><li><span class="add-hide-icon4">结算提现</span></li></a>
+    </ul>
+</div>
+<script>
+    $("#addButton").click(function () {
+        $(".add-box").toggle();
+    })
+</script>
+
+<div class="safe-set">
+    <ul>
+        <li>
+            <a href="withdrawCash.html"><div class="safe-set-icon1">提现</div></a>
+        </li>
+        <li>
+            <a href="encryptedSet.html"><div class="safe-set-icon2">密保问题</div></a>
+        </li>
+        <li>
+            <a href="withdrawPwd.html"><div class="safe-set-icon3">提现密码</div></a>
+        </li>
+        <li>
+            <a href="loginPwd.html"><div class="safe-set-icon4">登陆密码</div></a>
+        </li>
+    </ul>
+</div>
+
+<div class="banner" id="fla">
+    <img lazyload="images/banner1.jpg" height="250px">
+    <img lazyload="images/banner2.jpg" height="250px">
+    <img lazyload="images/banner3.jpg" height="250px">
+</div>
+<script>
+    //创建slider组件
+    $('#fla').slider();
+</script>
+
+<div class="my-manage">
+    <ul>
+        <li>
+            <a href="myAccount.html"><div class="my-manage-icon1">我的账户</div></a>
+        </li>
+        <li>
+            <a href="orderManagement.html"><div class="my-manage-icon2">订单管理</div></a>
+        </li>
+        <li>
+            <a href="goodsManagement.html"><div class="my-manage-icon3">商品管理</div></a>
+        </li>
+        <li>
+            <a href="payCash.html"><div class="my-manage-icon4">结算提现</div></a>
+        </li>
+    </ul>
+</div>
+
+<div class="acc-detail">
+    <ul>
+        <a href="financeLook.html">
+            <li>
+                <div class="acc-detail-icon1"></div>
+                <span>财务总览</span>
+            </li>
+        </a>
+        <a href="siteNotice.html">
+            <li>
+                <div class="acc-detail-icon2"></div>
+                <span>站内公告</span>
+            </li>
+        </a>
+        <a href="count.html">
+            <li>
+                <div class="acc-detail-icon3"></div>
+                <span>统计概览</span>
+            </li>
+        </a>
+        <a href="dayDeal.html">
+            <li>
+                <div class="acc-detail-icon4"></div>
+                <span>当日交易系统</span>
+            </li>
+        </a>
+
+    </ul>
+</div>
+
+<div class="h90"></div>
+<footer>
+    <ul>
+        <li><a href="index.html"><span class="footer-icon1">首页</span></a></li>
+        <li><a href="game.html"><span class="footer-icon2">游戏</span></a></li>
+        <li><a href="giftbag.html"><span class="footer-icon3">礼包</span></a></li>
+        <li><a href="management"><span class="footer-icon4">管理</span></a></li>
+    </ul>
+</footer>
+
+
+
+</body>
+</html>

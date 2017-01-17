@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>卡类订单</title>
+    <link rel="stylesheet" href="css/css.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slider.css"/>
+    <script src="js/zepto.js" language="javascript" type="text/javascript" ></script>
+    <!--触摸屏效果滑动组件-->
+    <script type="text/javascript" src="js/touch.js"></script>
+    <script type="text/javascript" src="js/zepto.extend.js"></script>
+    <script type="text/javascript" src="js/zepto.ui.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <!--触摸屏效果滑动组件end-->
+
+</head>
+<body>
+
+<header>
+    <div class="acc-infro fl">
+        <img src="images/back_icon.png" onclick="history.go(-1)" width="8px" height="16px" alt=""/>
+        <span style="padding-left: 10px;border-left:solid 1px #434141;">卡类订单</span>
+    </div>
+    <div class="tool_btn fr">
+        <a href="siteNews.html"><span><img src="images/site_news_icon.png" width="20px" height="20px"></span></a>
+        <a href="allSearch.html"><span><img src="images/search_icon.png" width="22px" height="22px"/></span></a>
+        <a href="javascript:;" class="add" id="addButton"><span><img src="images/add_icon.png" width="20px" height="20px"/></span></a>
+    </div>
+</header>
+
+<div class="add-box fr" style="display: none;z-index: 10;">
+    <ul>
+        <a href="myAccount.html"><li><span class="add-hide-icon1">我的账户</span></li></a>
+        <a href="orderManagement.html"><li><span class="add-hide-icon2">订单管理</span></li></a>
+        <a href="goodsManagement.html"><li><span class="add-hide-icon3">商品管理</span></li></a>
+        <a href="payCash.html"><li><span class="add-hide-icon4">结算提现</span></li></a>
+    </ul>
+</div>
+<script>
+    $("#addButton").click(function () {
+        $(".add-box").toggle();
+    })
+</script>
+
+<div class="financel-con" style="background: #ffffff;color: #000;">
+    <ul>
+        <li>
+            <div class="financel-con-tit">商户订单</div>
+            <div class="financel-con-txt">201605165739a38018319</div>
+        </li>
+        <li>
+            <div class="financel-con-tit">支付方式</div>
+            <div class="financel-con-txt">支付宝扫码支付</div>
+        </li>
+        <li>
+            <div class="financel-con-tit">提交金额</div>
+            <div class="financel-con-txt">0.10</div>
+        </li>
+        <li>
+            <div class="financel-con-tit">订单状态</div>
+            <div class="financel-con-txt">0.10</div>
+        </li>
+        <li>
+            <div class="financel-con-tit">提交时间</div>
+            <div class="financel-con-txt">2016-05-16 18:39:00</div>
+        </li>
+    </ul>
+</div>
+
+<a href="">
+    <div class="wydd-btn"><input type="button" value="查&nbsp;&nbsp;看"/></div>
+</a>
+<a href="">
+    <div class="wydd-btn2"><input type="button" value="补&nbsp;&nbsp;单"/></div>
+</a>
+
+
+
+
+
+
+
+
+<div class="h90"></div>
+<footer>
+    <ul>
+        <li><a href="index.html"><span class="footer-icon1">首页</span></a></li>
+        <li><a href="game.html"><span class="footer-icon2">游戏</span></a></li>
+        <li><a href="giftbag.html"><span class="footer-icon3">礼包</span></a></li>
+        <li><a href="management"><span class="footer-icon4">管理</span></a></li>
+    </ul>
+</footer>
+
+
+
+</body>
+</html>

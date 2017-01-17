@@ -1,0 +1,863 @@
+/*inter*/
+.inter{
+    width: 100%;
+    height: 100%;
+}
+
+/*login*/
+
+.login-t{
+    width: 100%;
+    text-align: center;
+}
+.login-logo{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.login-logo img{
+    margin-top: 50px;
+}
+.login-msg{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.login-msg ul li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid 1px #c1bfbf;
+}
+.login-msg ul li span{
+    display: inline-block;
+    width: 80px;
+    padding-left: 20px ;
+}
+.login-btn-box{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.login-btn1{
+    width: 290px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #fb8b05;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.login-btn2{
+    width: 290px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+
+/*index*/
+header{
+    height: 51px;
+    line-height: 50px;
+    width: 100%;
+    padding: 0;
+    background: url('../images/header_bg.jpg');
+    color: #ffffff;
+}
+header a span {
+    text-shadow: 0px 1px 0px #ffffff;
+    -webkit-text-shadow: 0px 1px 1px #ffffff;
+    display: inline-block;
+    float: left;
+    margin: 0 10px;
+}
+header .acc-infro img{
+    padding: 0px 10px;
+}
+header .acc-infro span{
+    font-size: 16px;
+}
+header .acc-infro a{
+    color: #ffffff;
+}
+header .add{
+    position: relative;
+}
+/*隐藏部分*/
+.add-box{
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    height: 243px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px  #000000;
+
+}
+.add-box ul li{
+    width: 100%;
+    height: 60px;
+    border-bottom: solid 1px #069bfa;
+}
+.add-box ul li span{
+    display: block;
+    padding-left: 40px;
+    line-height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    color: #069bfa;
+
+}
+.add-box ul li span.add-hide-icon1{  background: url("../images/add_hide_icon1.png") left center no-repeat;  }
+.add-box ul li span.add-hide-icon2{  background: url("../images/add_hide_icon2.png") left center no-repeat;  }
+.add-box ul li span.add-hide-icon3{  background: url("../images/add_hide_icon3.png") left center no-repeat;  }
+.add-box ul li span.add-hide-icon4{  background: url("../images/add_hide_icon4.png") left center no-repeat;  }
+/*safe-set*/
+.safe-set{
+    clear: both;
+    width: 100%;
+    height: 90px;
+    background: url('../images/header_bg2.jpg');
+}
+.safe-set ul li{
+    width: 25%;
+    height: 90px;
+    float: left;
+    padding-top: 10px;
+}
+.safe-set ul li div{
+    padding-top: 50px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+.safe-set ul li div.safe-set-icon1{
+    background: url("../images/safe_set_icon1.png") top center no-repeat;
+}
+.safe-set ul li div.safe-set-icon2{
+    background: url("../images/safe_set_icon2.png") top center no-repeat;
+}
+.safe-set ul li div.safe-set-icon3{
+    background: url("../images/safe_set_icon3.png") top center no-repeat;
+}
+.safe-set ul li div.safe-set-icon4{
+    background: url("../images/safe_set_icon4.png") top center no-repeat;
+}
+
+/*my-manage*/
+.my-manage{
+    width: 100%;
+    height: 120px;
+    background: #ffffff;
+    margin-top: 10px;
+}
+.my-manage ul li{
+    width: 25%;
+    height: 90px;
+    float: left;
+    padding-top: 20px;
+}
+.my-manage ul li div{
+    padding-top: 50px;
+    line-height: 30px;
+    text-align: center;
+}
+.my-manage ul li div.my-manage-icon1{
+    background: url("../images/my_manage_icon1.png") top center no-repeat;
+}
+.my-manage ul li div.my-manage-icon2{
+    background: url("../images/my_manage_icon2.png") top center no-repeat;
+}
+.my-manage ul li div.my-manage-icon3{
+    background: url("../images/my_manage_icon3.png") top center no-repeat;
+}
+.my-manage ul li div.my-manage-icon4{
+    background: url("../images/my_manage_icon4.png") top center no-repeat;
+}
+
+/*acc-detail*/
+.acc-detail{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.acc-detail ul li{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background: #ffffff;
+
+    -moz-box-shadow: inset 0 0px 2px #f4f4f4;
+    -webkit-box-shadow: inset 0 0px 2px #f4f4f4;
+    box-shadow: inset 0 0px 2px #f4f4f4;
+}
+.acc-detail ul li div{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.acc-detail ul li span{
+    display: block;
+    width: 60%;
+    padding-left: 10%;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+}
+.acc-detail ul li div.acc-detail-icon1{
+    background: url("../images/acc_detail_icon1.png") right center no-repeat;
+}
+.acc-detail ul li div.acc-detail-icon2{
+    background: url("../images/acc_detail_icon2.png") right center no-repeat;
+}
+.acc-detail ul li div.acc-detail-icon3{
+    background: url("../images/acc_detail_icon3.png") right center no-repeat;
+}
+.acc-detail ul li div.acc-detail-icon4{
+    background: url("../images/acc_detail_icon4.png") right center no-repeat;
+}
+
+
+
+/************底部footer************/
+
+footer{width:100%;height:80px;position:fixed;left:0;bottom:0;z-index:998;background:#e2e7ea;}
+footer ul li{width:25%;height:80px;float:left;}
+footer ul li span{display:block;color:#000;padding-top:40px;text-align:center;margin-top:10px;}
+footer ul li span.footer-icon1{background:url(../images/footer_icon1.png) center top no-repeat;}
+footer ul li span.footer-icon1-1{background:url(../images/footer_icon1_1.png) center top no-repeat;  color: #00a7ec;}
+footer ul li span.footer-icon2{background:url(../images/footer_icon2.png) center top no-repeat;}
+footer ul li span.footer-icon2-1{background:url(../images/footer_icon2_1.png) center top no-repeat;  color: #00a7ec;}
+footer ul li span.footer-icon3{background:url(../images/footer_icon3.png) center top no-repeat;}
+footer ul li span.footer-icon3-1{background:url(../images/footer_icon3_1.png) center top no-repeat;  color: #00a7ec;}
+footer ul li span.footer-icon4{background:url(../images/footer_icon4.png) center top no-repeat;}
+footer ul li span.footer-icon4-1{background:url(../images/footer_icon4_1.png) center top no-repeat;  color: #00a7ec;}
+
+
+
+
+
+/*column-row-con*/
+.column-row-con{
+    width: 100%;
+    margin-top: 10px;
+}
+.column-row-con ul li{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 1px;
+    background: #ffffff;
+}
+.column-row-con ul li a{
+    width: 96%;
+    margin: 0 auto;
+    display: block;
+    background: url(../images/arrow_right.png) no-repeat right;
+}
+
+
+
+/*withdrawCash*/
+.note-txt{
+    width: 90%;
+    line-height: 24px;
+    padding: 0px 5%;
+    background: #ffffff;
+    text-indent: 24px;
+    margin: 10px 0px;
+    font-size: 12px;
+}
+.cl-row-con{
+    width: 100%;
+}
+.cl-row-con ul li{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 1px;
+    background: #ffffff;
+}
+.cl-row-con ul li div.cl-row-lname{
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    float: left;
+}
+.cl-row-con ul li div.cl-row-lname span{
+    display: inline-block;
+    width: 100%;
+    height: 16px;
+    margin-top: 22px;
+}
+.cl-row-con ul li div.cl-row-lname span.alt-in{
+    border-right: solid 2px #8b8b8b;
+}
+
+.cl-row-con ul li div.cl-row-txt{
+    float: left;
+    margin-left: 2px;
+}
+.cl-row-con ul li div.cl-row-txt p{
+    height: 60px;
+    line-height: 60px;
+}
+.cl-row-con ul li div.cl-row-txt p span{
+    color: #10aae6;
+}
+.cl-row-con ul li div.cl-row-txt input{
+    margin-top: 12px;
+    padding-left: 10px;
+}
+
+/*站内消息*/
+.date-choose{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: url('../images/dotted_line_.png') #ffffff center no-repeat;
+    margin-bottom: 5px;
+}
+
+.date-form{
+    min-width: 160px;
+    height: 90px;
+    padding-top: 19px;
+    width: 50%;
+    text-align: center;
+
+}
+.date-form-1{
+    min-width: 160px;
+    height: 90px;
+    padding-top: 10px;
+    width: 50%;
+    color: #000;
+    text-indent:12px;
+
+}
+.date-form input{
+    background:url("../images/arrow_down.png") #ffffff right center no-repeat;
+    color: #000;
+}
+.date-form .data-txt{
+    line-height: 30px;
+    color: #000;
+}
+.sitenews-search{
+    width: 100%;
+    height: auto;
+}
+.sitenews-search input{
+    width: 100%;
+    text-align: center;
+    background: #ffffff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    color: #000;
+}
+.sitenews-con{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    background: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.sitenews-con ul li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.sitenews-con ul li .sitenews-con-tit{
+    width: 60px;
+    text-align: center;
+    float: left;
+}
+.sitenews-con ul li .sitenews-con-txt{
+    width: auto;
+    float: left;
+}
+.no-news{
+    width: 90%;
+    margin: 0px auto;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background:#fb8b05;
+    color: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+/*allSearch*/
+.all-search{
+    width: 100%;
+}
+.all-search input{
+    width: 80%;
+    background: url("../images/search_icon.png") left center no-repeat;
+    border-bottom: solid 1px #196b8d;
+    text-indent: 30px;
+    color: #ffffff;
+}
+.djds{
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 40px;
+}
+.search-hot{
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.search-hot ul li{
+    width: 32%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ffffff;
+    float: left;
+    margin: 10px 0.5%;
+}
+
+/*financel*/
+.financel-txt{
+    width: 90%;
+    padding: 0px 5%;
+    line-height: 24px;
+    background: #ffffff;
+    font-size: 12px;
+    text-indent: 24px;
+}
+
+.financel-con{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    background: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #000;
+    padding: 10px 0px;
+}
+.financel-con ul li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.financel-con ul li .financel-con-tit{
+    width: 80px;
+    padding-left: 30px;
+    float: left;
+    border-right: dotted 1px #909199;
+}
+
+.financel-con ul li .financel-con-txt{
+    padding-left: 30px;
+    float: left;
+    color: #3cc8ff;
+}
+.financel-btn{
+    width: 90%;
+    height: 36px;
+    margin: 0px auto;
+}
+
+.financel-btn input{
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    background:#fb8b05;
+    color: #ffffff;
+}
+
+/*siteNotice*/
+.sitenotice-txt{
+    width: 90%;
+    padding-left: 10%;
+    height: auto;
+    line-height: 40px;
+    background: #ffffff;
+    color: #000;
+}
+.sitenotice-txt input{
+    background: #ffffff;
+    color: #000000;
+}
+.sitenotice-con{
+    width: 80%;
+    padding: 10px 5%;
+    height: auto;
+    line-height: 25px;
+    margin: 10px auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #ffffff;
+}
+
+
+/*count*/
+.count-con ul{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.count-con ul li.li_list{
+    width:90%;
+    overflow: hidden;
+    line-height: 50px;
+    margin: 10px auto;
+    background: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.count-con ul li .count-con-tit{
+    width: 40%;
+    padding: 0px 5% 0px 10%;
+    text-align: left;
+    float: left;
+}
+.count-con ul li .count-con-txt{
+    width: auto;
+    float: left;
+    color: #10aae6;
+}
+
+.count-days{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #069bfa;
+    color: #ffffff;
+    margin: 5px;
+}
+.count-days ul li{
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.count-days ul li.w-50{
+    width: 50%;
+}
+.count-days ul li.w-33{
+    width: 33%;
+}
+.count-days ul li a{
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    color: #ffffff;
+}
+.count-days ul li a.current{
+    background: #ffffff;
+    color: #000;
+}
+
+/*adminNews*/
+.adminnews-tit{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #333645;
+    color: #ffffff;
+}
+.adminnews-tit img{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*settleAccounts*/
+.style-name{
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    background: #4f515d;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    line-height: 36px;
+}
+
+.setac-con{
+    width: 100%;
+
+    background: #ffffff;
+    margin: 10px 0;
+}
+.setac-con ul li{
+    width: 95%;
+    line-height: 45px;
+    border-bottom: solid 1px #f4f4f4;
+    overflow: hidden;
+}
+.setac-con ul li .lr1{
+    width: 30%;
+    float: left;
+    height: 45px;
+    text-align: center;
+}
+.setac-con ul li .lr2{
+    width: 70%;
+    float: left;
+}
+.setac-con ul li .lr2 select{
+    width: 98%;
+    height: 45px;
+    line-height: 40px;
+    border: none;
+    overflow: hidden;
+}
+
+/*addCoupleBack*/
+.acb{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+.acb .acb1{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.acb .acb1 span{
+    display: block;
+}
+.acb .acb2 span{
+    display: block;
+}
+.acb .acb1 .acb1-1{
+    width: 30%;
+    height: 50px;
+    float: left;
+    text-align: center;
+}
+.acb .acb1 .acb1-2{
+    width: 70%;
+    height: 50px;
+    float: left;
+}
+.acb .acb1 .acb1-2 select{
+    width: 98%;
+    height: 45px;
+    line-height: 40px;
+    border: none;
+    overflow: hidden;
+}
+
+.acb .acb2{
+    width: 100%;
+    height: 150px;
+    line-height: 50px;
+    background: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.acb .acb2 .acb1-1{
+    width: 30%;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+.acb .acb2 .acb1-2{
+    width: 70%;
+    height: 150px;
+    float: left;
+}
+.acb .acb2 .acb1-2 textarea{
+    width: 90%;
+    height: 130px;
+    padding: 5px 0px;
+    overflow: hidden;
+    border-color:white ;
+}
+.wydd-text{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    margin:10px auto;
+}
+.wydd-text li{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    border-bottom: solid 1px #f4f4f4;
+}
+.wydd-text li .wt-time{
+    width: 100%;
+    line-height: 30px;
+    color: #969696;
+    font-size: 12px;
+}
+.wydd-text li .wt{
+    width: 100%;
+    line-height: 40px;
+    height: auto;
+}
+.wydd-text li .wt span{
+    height: auto;
+    display: block;
+}
+.wydd-text li .wt span.wt1{
+    width: 56%;
+    float: left;
+    line-height: 40px;
+}
+.wydd-text li .wt span.wt2{
+    width: 30%;
+    float: left;
+    line-height: 40px;
+}
+.wydd-text li .wt span.wt3{
+    width: 10%;
+    float: left;
+    line-height: 40px;
+}
+.wydd-text li .wt span.wt1-1{
+    width: 40%;
+    float: left;
+    line-height: 40px;
+}
+.wydd-text li .wt span.wt2-1{
+    width: 40%;
+    float: left;
+    line-height: 40px;
+}
+.wydd-text li .wt span.wt3-1{
+    width: 10%;
+    float: right;
+    line-height: 40px;
+}
+
+.wydd-btn{
+    width: 90%;
+    height: 36px;
+    margin: 10px auto 0px auto;
+}
+.wydd-btn input{
+    width: 100%;
+    height: 36px;
+    background:#18aff1;
+    color: #ffffff;
+}
+.wydd-btn2{
+    width: 90%;
+    height: 36px;
+    margin: 10px auto;
+}
+
+.wydd-btn2 input{
+    width: 100%;
+    height: 36px;
+    background:#333645;
+    color: #ffffff;
+}
+.wydd4-txt{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background:#ffffff;
+    margin: 10px 0px;
+}
+.wydd4-txt ul li{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 40px;
+    border-bottom: solid 1px #f4f4f4;
+}
+.wydd4-txt ul li .tr1{
+    width: 25%;
+    padding-left: 10%;
+    float: left;
+}
+.wydd4-txt ul li .tr2{
+    width: 65%;
+    float: left;
+}
+
+/*registerAgreement*/
+.ra-txt{
+    width: 90%;
+    padding: 10px 5%;
+    height: auto;
+    background: #ffffff;
+}
+.ra-txt p{
+    text-indent: 28px;
+}
+.ra-txt h4{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
